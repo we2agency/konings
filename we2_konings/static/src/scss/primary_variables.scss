@@ -1,0 +1,82 @@
+/* 
+Copyright (c) 2023 WE2 Creative Agency. All rights reserved.
+
+Author: WE2 Creative Agency
+Email: info@we2design.nl
+
+This file, including its source code and accompanying comments, is protected by copyright 
+law. Unauthorized copying, distribution, or modification of this file, in whole or in part, 
+is strictly prohibited without the express written permission of WE2 Creative Agency.
+*/
+
+//------------------------------------------------------------------------------
+// Colors
+//------------------------------------------------------------------------------
+
+$o-color-palettes: map-merge($o-color-palettes,
+    (
+        'konings': (
+            'o-color-1': #121212,
+            'o-color-2': #D0A954,
+            'o-color-3': #FFFFFF,
+            'o-color-4': #FFFFFF,
+            'o-color-5': #000000,
+
+            'o-cc1-bg': 'o-color-1',
+            'o-cc1-text': 'o-color-4',
+            'o-cc1-headings': 'o-color-4',
+            'o-cc1-link': 'o-color-2',
+            'o-cc1-btn-primary': 'o-color-2',
+            'o-cc1-btn-secondary': 'o-color-4',
+        ),
+    )
+);
+
+$o-selected-color-palettes-names: append($o-selected-color-palettes-names, 'konings');
+
+//------------------------------------------------------------------------------
+// Website customizations
+//------------------------------------------------------------------------------
+
+$o-website-values-palettes: (
+    (
+        // Templates
+        'header-template': 'template_header_default',
+        'logo-height': 3.125rem,
+        'hamburger-type': 'offcanvas',
+
+        'footer-template': 'template_footer_centered',
+
+        // Colors
+        'color-palettes-name': 'konings',
+
+        // Fonts
+        'font': 'Avenir',
+        'headings-font': 'Ador Hairline',
+        'navbar-font': 'Avenir',
+        'buttons-font': 'Avenir',
+    ),
+);
+
+//------------------------------------------------------------------------------
+// Fonts
+//------------------------------------------------------------------------------
+
+$o-theme-font-configs: (
+    'Ador Hairline': (
+        'family': ('ador-hairline', sans-serif),
+        'properties': (
+            'base': (
+                'font-size-base': 1rem,
+            ),
+        ),
+    ),
+    'Avenir': (
+        'family': ('Avenir', sans-serif),
+        'properties': (
+            'base': (
+                'font-size-base': 1rem,
+            ),
+        ),
+    ),
+);

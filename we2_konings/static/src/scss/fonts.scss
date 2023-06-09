@@ -1,0 +1,131 @@
+/* 
+Copyright (c) 2023 WE2 Creative Agency. All rights reserved.
+
+Author: WE2 Creative Agency
+Email: info@we2design.nl
+
+This file, including its source code and accompanying comments, is protected by copyright 
+law. Unauthorized copying, distribution, or modification of this file, in whole or in part, 
+is strictly prohibited without the express written permission of WE2 Creative Agency.
+*/
+@import url('https://use.typekit.net/cea5lya.css');
+
+@font-face {
+    font-family: 'Avenir Book';
+    src: local('Avenir Book Oblique'), local('Avenir-BookOblique'),
+        url('/we2_konings/static/src/fonts/Avenir-BookOblique.woff2') format('woff2'),
+        url('/we2_konings/static/src/fonts/Avenir-BookOblique.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Avenir Black Oblique';
+    src: local('Avenir Black Oblique'), local('Avenir-BlackOblique'),
+        url('/we2_konings/static/src/fonts/Avenir-BlackOblique.woff2') format('woff2'),
+        url('/we2_konings/static/src/fonts/Avenir-BlackOblique.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Avenir Book';
+    src: local('Avenir Book'), local('Avenir-Book'),
+        url('/we2_konings/static/src/fonts/Avenir-Book.woff2') format('woff2'),
+        url('/we2_konings/static/src/fonts/Avenir-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Avenir';
+    src: local('Avenir Black'), local('Avenir-Black'),
+        url('/we2_konings/static/src/fonts/Avenir-Black.woff2') format('woff2'),
+        url('/we2_konings/static/src/fonts/Avenir-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Avenir';
+    src: local('Avenir Heavy Oblique'), local('Avenir-HeavyOblique'),
+        url('/we2_konings/static/src/fonts/Avenir-HeavyOblique.woff2') format('woff2'),
+        url('/we2_konings/static/src/fonts/Avenir-HeavyOblique.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Avenir';
+    src: local('Avenir Heavy'), local('Avenir-Heavy'),
+        url('/we2_konings/static/src/fonts/Avenir-Heavy.woff2') format('woff2'),
+        url('/we2_konings/static/src/fonts/Avenir-Heavy.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Avenir';
+    src: local('Avenir Light'), local('Avenir-Light'),
+        url('/we2_konings/static/src/fonts/Avenir-Light.woff2') format('woff2'),
+        url('/we2_konings/static/src/fonts/Avenir-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Avenir';
+    src: local('Avenir Medium Oblique'), local('Avenir-MediumOblique'),
+        url('/we2_konings/static/src/fonts/Avenir-MediumOblique.woff2') format('woff2'),
+        url('/we2_konings/static/src/fonts/Avenir-MediumOblique.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Avenir';
+    src: local('Avenir Roman'), local('Avenir-Roman'),
+        url('/we2_konings/static/src/fonts/Avenir-Roman.woff2') format('woff2'),
+        url('/we2_konings/static/src/fonts/Avenir-Roman.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Avenir';
+    src: local('Avenir Medium'), local('Avenir-Medium'),
+        url('/we2_konings/static/src/fonts/Avenir-Medium.woff2') format('woff2'),
+        url('/we2_konings/static/src/fonts/Avenir-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Avenir';
+    src: local('Avenir Light Oblique'), local('Avenir-LightOblique'),
+        url('/we2_konings/static/src/fonts/Avenir-LightOblique.woff2') format('woff2'),
+        url('/we2_konings/static/src/fonts/Avenir-LightOblique.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Avenir';
+    src: local('Avenir Oblique'), local('Avenir-Oblique'),
+        url('/we2_konings/static/src/fonts/Avenir-Oblique.woff2') format('woff2'),
+        url('/we2_konings/static/src/fonts/Avenir-Oblique.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
