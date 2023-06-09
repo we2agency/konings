@@ -31,12 +31,12 @@
             'we2_konings/static/src/scss/primary_variables.scss'
         ],
         'web._assets_frontend_helpers': [
-            'we2_konings/static/src/scss/bootstrap_overridden.scss'
-        ]
+            ('prepend', 'we2_konings/static/src/scss/bootstrap_overridden.scss'),
+        ],
     },
-    'data': [
-        'views/website_templates.xml'
-    ],
+    # 'data': [
+    #     'views/website_templates.xml'
+    # ],
     'images': [
         'static/description/we2_logo.png'
     ]

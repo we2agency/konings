@@ -40,21 +40,31 @@ $o-selected-color-palettes-names: append($o-selected-color-palettes-names, 'koni
 
 $o-website-values-palettes: (
     (
-        // Templates
-        'header-template': 'template_header_default',
-        'logo-height': 3.125rem,
-        'hamburger-type': 'offcanvas',
+        'font-size-base': 1rem,
+        'google-fonts': null,
 
-        'footer-template': 'template_footer_centered',
-
-        // Colors
+        // Theming
+        'layout': 'full',
         'color-palettes-name': 'konings',
+        'link-underline': 'hover',
+        'btn-primary-outline': true,
+        'btn-secondary-outline': true,
 
         // Fonts
         'font': 'Avenir',
         'headings-font': 'Ador Hairline',
         'navbar-font': 'Avenir',
         'buttons-font': 'Avenir',
+
+        // Header
+        'header-template': 'default',
+        'logo-height': 3.125rem,
+        'hamburger-type': 'off-canvas',
+        'hamburger-position': 'left',
+
+        // Footer
+        'footer-template': 'centered',
+        'footer-scrolltop': false
     ),
 );
 
@@ -79,4 +89,4 @@ $o-theme-font-configs: (
             ),
         ),
     ),
-);
+) !default;
