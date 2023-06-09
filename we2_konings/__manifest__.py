@@ -25,21 +25,19 @@
     'assets': {
         'web.assets_frontend': [
             'we2_konings/static/src/scss/style.scss',
-            'we2_konings/static/src/scss/fonts.scss',
+            'we2_konings/static/src/scss/fonts.scss'
         ],
         'web._assets_primary_variables': [
-            'we2_konings/static/src/scss/primary_variables.scss',
+            'we2_konings/static/src/scss/primary_variables.scss'
         ],
         'web._assets_frontend_helpers': [
-            'we2_konings/static/src/scss/bootstrap_overridden.scss',
-        ],
+            'we2_konings/static/src/scss/bootstrap_overridden.scss'
+        ]
     },
     'data': [
-        'views/website_templates.xml',
+        'views/website_templates.xml'
     ],
     'images': [
         'static/description/we2_logo.png'
-    ],
-    'application': False,
-    'installable': False,
+    ]
 }
