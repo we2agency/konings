@@ -49,6 +49,19 @@ is strictly prohibited without the express written permission of WE2 Creative Ag
     }
 }
 
+.we2-offcanvas {
+    &__header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: .5rem 0;
+    }
+    &__close {
+        font-size: 1.5rem;
+        padding: .25rem;
+    }
+}
+
 // Footer
 .we2-brand-promotion {
     opacity: 1;

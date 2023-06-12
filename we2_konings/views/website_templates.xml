@@ -14,9 +14,21 @@ is strictly prohibited without the express written permission of WE2 Creative Ag
 <!-- Creates custom nav links -->
 <template id="submenu" inherit_id="website.submenu" name="Submenu">
     <xpath expr="//li[@t-elif='show_dropdown']/a" position="inside">
-        <i class="we2-submenu__icon fa fa-fw fa-chevron-down" />
+        <i class="fa fa-fw fa-chevron-down" />
     </xpath>
 </template> 
+
+<!-- Overrides the header offcanvas -->
+<template id="header_offcanvas" inherit_id="website.option_header_off_canvas" name="Header Off-Canvas" active="False">
+    <xpath expr="//li[hasclass('o_offcanvas_menu_toggler')]" position="replace">
+        <li class="we2-offcanvas__header o_offcanvas_menu_toggler order-first navbar-toggler border-0 o_not_editable">
+            <a href="/" class="o_offcanvas_logo"></a>
+            <a href="#top_menu_collapse" class="we2-offcanvas__close" data-bs-toggle="collapse">
+                <span class="fa fa-fw fa-times"/>
+            </a>
+        </li>
+    </xpath>
+</template>
 
 <!-- Adds the WE2 custom brand promotion -->
 <template id="brand_promotion" inherit_id="web.brand_promotion" name="Brand Promotion">
