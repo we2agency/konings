@@ -34,9 +34,9 @@
             ('prepend', 'we2_konings/static/src/scss/bootstrap_overridden.scss'),
         ],
     },
-    # 'data': [
-    #     'views/website_templates.xml'
-    # ],
+    'data': [
+        'views/website_templates.xml'
+    ],
     'images': [
         'static/description/we2_logo.png'
     ]

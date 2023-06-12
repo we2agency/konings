@@ -9,6 +9,7 @@ law. Unauthorized copying, distribution, or modification of this file, in whole 
 is strictly prohibited without the express written permission of WE2 Creative Agency.
 */
 
+// Header
 .navbar-dark .navbar-nav .nav-link {
     position: relative;
     color: #fff;
@@ -33,6 +34,33 @@ is strictly prohibited without the express written permission of WE2 Creative Ag
         &:after {
             width: 100%;
             left: 0;
+        }
+    }
+
+    & > i {
+        font-size: 13px;
+        color: $primary;
+        transform: rotate(0deg);
+        transition: transform .5s ease;
+    }
+
+    &.show > i {
+        transform: rotate(-180deg);
+    }
+}
+
+// Footer
+.we2-brand-promotion {
+    opacity: 1;
+    font-size: .875rem;
+
+    &__link {
+        color: blue; // TODO: Add WE2 primary color
+        border-bottom: 1px solid transparent;
+        transition: border-color .3s ease; 
+
+        &:hover {
+            border-color: blue; // TODO: Add WE2 primary color
         }
     }
 }

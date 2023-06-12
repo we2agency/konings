@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Copyright (c) 2023 WE2 Creative Agency. All rights reserved.
+
+Author: WE2 Creative Agency
+Email: info@we2design.nl
+
+This file, including its source code and accompanying comments, is protected by copyright 
+law. Unauthorized copying, distribution, or modification of this file, in whole or in part, 
+is strictly prohibited without the express written permission of WE2 Creative Agency.
+-->
+<odoo>
+
+<!-- Creates custom nav links -->
+<template id="submenu" inherit_id="website.submenu" name="Submenu">
+    <xpath expr="//li[@t-elif='show_dropdown']/a" position="inside">
+        <i class="we2-submenu__icon fa fa-fw fa-chevron-down" />
+    </xpath>
+</template> 
+
+<!-- Adds the WE2 custom brand promotion -->
+<template id="brand_promotion" inherit_id="web.brand_promotion" name="Brand Promotion">
+    <xpath expr="//div[hasclass('o_brand_promotion')]" position="replace">
+        <div class="we2-brand-promotion">
+            <p>Gerealiseerd door <a class="we2-brand-promotion__link" href="https://www.we2design.nl" title="Naar de website van WE2 Creative Agency" target="_blank">WE2 Creative Agency</a></p>
+        </div>
+    </xpath> 
+</template>
+
+</odoo>
