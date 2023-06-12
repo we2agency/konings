@@ -8,3 +8,31 @@ This file, including its source code and accompanying comments, is protected by 
 law. Unauthorized copying, distribution, or modification of this file, in whole or in part, 
 is strictly prohibited without the express written permission of WE2 Creative Agency.
 */
+
+.navbar-dark .navbar-nav .nav-link {
+    position: relative;
+    color: #fff;
+    font-weight: bold;
+
+    &:after {
+        content: '';
+        position: absolute;
+        width: 0;
+        height: 2px;
+        left: 50%;
+        bottom: 0;
+        border: none;
+        margin: 0;
+        background-color: $primary;
+        transition: all .3s ease;
+    }
+
+    &:hover {
+        color: #fff;
+
+        &:after {
+            width: 100%;
+            left: 0;
+        }
+    }
+}

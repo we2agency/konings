@@ -16,17 +16,17 @@ is strictly prohibited without the express written permission of WE2 Creative Ag
 $o-color-palettes: map-merge($o-color-palettes,
     (
         'konings': (
-            'o-color-1': #121212,
-            'o-color-2': #D0A954,
+            'o-color-1': #D0A954,
+            'o-color-2': #121212,
             'o-color-3': #FFFFFF,
             'o-color-4': #FFFFFF,
             'o-color-5': #000000,
 
-            'o-cc1-bg': 'o-color-1',
+            'o-cc1-bg': 'o-color-2',
             'o-cc1-text': 'o-color-4',
             'o-cc1-headings': 'o-color-4',
-            'o-cc1-link': 'o-color-2',
-            'o-cc1-btn-primary': 'o-color-2',
+            'o-cc1-link': 'o-color-1',
+            'o-cc1-btn-primary': 'o-color-1',
             'o-cc1-btn-secondary': 'o-color-4',
         ),
     )
